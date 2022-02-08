@@ -1,0 +1,84 @@
+.speaker-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    color: white;
+    font-size: 500%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.speaker-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.speaker-card {
+    margin-top: 15%;
+    height: 420px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.speaker-card .speaker-circle {
+    position: relative;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    clip-path: circle(250px at center 0);
+}
+
+.speaker-card .speaker-circle img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.speaker-card .speaker-name {
+    position: relative;
+    align-content: center;
+    bottom: 35%;
+    font-size: 1.5em;
+}
+
+.speaker-card .speaker-name h3 {
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    background: -webkit-linear-gradient(#F5515F, #A1051D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.speaker-card .speaker-social-media {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40%;
+}
+
+.speaker-card .speaker-social-media img {
+    max-height: 80px;
+    max-width: 40px;
+    border-radius: 8px;
+    object-fit: contain;
+    background-color: #ff4863;
+}
+
+
+/* For Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+    .speaker-heading {
+        transform: scale(0.7);
+    }
+    .speaker-card-container {
+        transform: scale(0.6);
+    }
+    .speaker-card {
+        transform: scale(0.9);
+    }
+}

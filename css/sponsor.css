@@ -1,0 +1,147 @@
+    .section.s5 {
+        /* background-color: rgb(2, 2, 2); */
+        /* background-color: red; */
+    }
+    
+    .sponsor-heading {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10vh;
+        /* margin-left: 35vw; */
+        color: white;
+        font-size: 500%;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .wrapper {
+        /* margin-top: 15%; */
+        /* margin-left: 15%; */
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* background-color: yellow; */
+    }
+    /* .carousel-cell {
+        width: 100%;
+        height: 15vh;
+    } */
+    /* .carousel-cell :before {
+        display: block;
+    } */
+    
+    .sponsor-card {
+        width: 15vw;
+        height: 30vh;
+        border-radius: 15px;
+        margin-top: 50%;
+        padding: 1.5rem;
+        background: white;
+        position: relative;
+        bottom: 8vh;
+        display: flex;
+        align-items: flex-end;
+        transition: 0.4s ease-out;
+        box-shadow: 0px 7px 10px rgba(black, 0.5);
+    }
+    
+    .sponsor-card:hover {
+        transform: translateY(20px)
+    }
+    
+    .sponsor-card:hover ::before {
+        opacity: 1
+    }
+    
+    .sponsor-info {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+    .sponsor-info::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        background: rgba(black, 0.5);
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    .sponsor-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 15px;
+    }
+    
+    .sponsor-info {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+        color: white;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.5s;
+    }
+    
+    .sponsor-info h1 {
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        bottom: 2vh;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        font-size: x-large;
+    }
+    
+    .sponsor-info:hover {
+        position: relative;
+        z-index: 3;
+        color: white;
+        opacity: 1;
+        transform: translateY(30px);
+        transition: 0.5s;
+    }
+    /* For Mobile Devices */
+    
+    @media only screen and (max-width: 768px) {
+        .sponsor-heading {
+            font-size: 400%;
+        }
+        .wrapper {
+            transform: scale(0.69);
+        }
+        .sponsor-card {
+            height: 26vh;
+            width: 32vw;
+        }
+        .sponsor-info {
+            background-color: white;
+            position: absolute;
+            margin-left: -6.5vw;
+            bottom: 7.5vh;
+            height: 7vh;
+            width: 45vw;
+            opacity: 1;
+            border-radius: 15px 15px 5px 5px;
+        }
+        .sponsor-info h1 {
+            margin: 5vw;
+            color: black;
+            position: relative;
+            justify-content: center;
+            text-align: left;
+        }
+        .gmc {
+            font-size: 14px;
+        }
+    }

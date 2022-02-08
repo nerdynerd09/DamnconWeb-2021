@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" type="image/png" href="assets/new-favicon.png">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/speaker.css">
+    <link rel="stylesheet" href="css/sponsor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Code Pro">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DamnCon 2021</title>
+</head>
+
+<body>
+    <div id="fullPage">
+
+        <!-- Landing Page -->
+
+        <div class="section s1">
+            <div class="landing">
+                <div id="particles-js"> </div>
+                <div class="container">
+                    <div class="logo">
+
+                        <img src="assets/white-logo.png">
+                    </div>
+
+                    <div class="logo-text">
+                        <p>
+                            <h3 id="welcome-text">Welcome to ...</h3>
+                        </p>
+                        <p>
+                            <h1 class="line anim-text">DAMNCON 2021</h1>
+                        </p>
+                        <p class="bottom-text">The Cyber Conference</p>
+                    </div>
+                </div>
+
+                <!-- Bounce Down Arrow -->
+                <div class='mouse-container'>
+                    <div class='mouse'>
+                        <span class='scroll-down'></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Page -->
+        <div class="section s2">
+            <div class="home">
+                <link rel="stylesheet" href="css/home.css">
+                <!-- Navbar -->
+                <div class="navbar">
+                    <!-- Navbar Menu -->
+                    <div class="navbar-container" onclick="togglemenu()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+
+                    <ul id="menu-List">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="https://dsph.org/#about">About</a></li>
+                        <li><a href="#speaker">Speakers</a></li>
+                        <li><a href="#sponsor">Sponsor</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScZ01AR99vlA1wt9QLPy6OD6o4CYbeMRQ0uBGI5ld3jS4Hzow/viewform">Registration</a></li>
+                        <li><a href="https://damncon2021.nulltrace.in/">CTF</a></li>
+
+                    </ul>
+
+                    <!-- Cross -->
+                    <div class="cross" onclick="togglemenu()">X</div>
+                </div>
+                <hr class="horizontal-bar" style="margin-left:8vw;margin-top:1vh;margin-right:10vw;">
+
+
+
+                <!-- Home Page Content -->
+                <div class="home-page-content">
+                    <div class="content-heading">
+                        <h1>What is</h1>
+                    </div>
+                    <div class="word-damn">
+                        <h1>DAMNCON??</h1>
+                    </div>
+                    <div class="main-content">
+                        <p>DAMNCON, the cyber conference. This will provide you with meaningful insights and the right knowledge for you to move to the next step. This cyber event, like no other, is the way to catchup with new age cyber threats and securities,
+                            or simply all of the cyber world. With the right guidance of our experienced team, you will soon be a budding cyber security expert.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button class="button-33" role="button" onclick="window.location.href='https://www.google.com'">Registration</button>
+                    <button class="button-332" role="button" onclick="window.location.href='https://damncon2021.nulltrace.in/'">CTF</button>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- TimeLine Page -->
+        <div class="section s3">
+            <link rel="stylesheet" href="css/timeline.css">
+            <div id="particles-js"> </div>
+            <h1 class="heading">Schedule</h1>
+
+            <!-- CARDS -->
+            <div class="card-container">
+                <div class="card">
+                    <div class="circle">
+                        <h4>01</h4>
+                    </div>
+
+                    <div class="heading">
+                        <h3>Inauguration</h3>
+                    </div>
+
+                    <div class="content">
+                        <p>20th November 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h4>02</h4>
+                    </div>
+
+                    <div class="heading">
+                        <h3>Talks</h3>
+                    </div>
+
+                    <div class="content">
+                        <p>21-23 November 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h4>03</h4>
+                    </div>
+
+                    <div class="heading">
+                        <h3>CTF</h3>
+                    </div>
+
+                    <div class="content">
+                        <p>24-25 November, 2021</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Speakers Page -->
+        <div class="section s4">
+            <div id="speaker">
+                <div class="speaker-heading">
+                    Speakers
+                </div>
+                <div class="main-carousel" data-flickity='{"cellAlign": "left","contain": true,"autoPlay":true,"freeScroll":true,"prevNextButtons": true}'>
+                    <!-- Wrapper 0 -->
+                    <div class="wrapper">
+
+                        <div class="speaker-card-container">
+                            <!-- Card 1 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker11.png">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Amit Dubey</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/amitdubey77/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/CyberDubey'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker10.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Prof. Triveni Singh IPS</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/triveni100100'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/triveni100100'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker12.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Fardeen Ahmed</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/fardeen-ahmed-455997188/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/fardeenahmed411'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/ahmedfardeen_/'">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wrapper 1 -->
+                    <div class="wrapper">
+
+                        <div class="speaker-card-container">
+                            <!-- Card 1 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker1.png">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Aditya Shende</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/aditya-shende-0a496b180'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/ADITYASHENDE17'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/aditya.bug'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker5.jpg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Chenny Ren</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/chenny-ren-523a1215a'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/cutiechenny'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/bounty_hunter1412/'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker2.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Deepak Kumar (D3)</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/d3pak/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/D3pak'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.facebook.com/D3kumar/'">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Wrapper 2 -->
+                    <div class="wrapper">
+
+                        <div class="speaker-card-container">
+                            <!-- Card 4 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker3.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Nitin Pandey</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/initinpandey1'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/initinpandey'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/initinpandey/'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker4.png">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Tushar Verma</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/tushars25'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/e11i0t_4lders0n'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/e11i0t_4lders0n__/'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker6.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Obu Raymond</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/oburay/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/'">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Wrapper 3 -->
+                    <div class="wrapper">
+
+                        <div class="speaker-card-container">
+                            <!-- Card 7 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker7.jpg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Jonathan Scott</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/jonathandata1'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/jonathandata1'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 8 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker8.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Gulab Mondal</h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/gulab-mondal-5065b3124/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com/'">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 9 -->
+                            <div class="carousel-cell">
+                                <div class="speaker-card">
+                                    <div class="speaker-circle">
+                                        <img src="assets/speaker9.jpeg">
+                                    </div>
+                                    <div class="speaker-name">
+                                        <h3>Dancho Danchev </h3>
+                                    </div>
+                                    <div class="speaker-social-media">
+                                        <img src="assets/linkedin_logo.png" onclick="window.location.href='https://www.linkedin.com/in/danchodanchev/'">
+                                        <img src="assets/twitter_logo.png" onclick="window.location.href='https://twitter.com/dancho_danchev'">
+                                        <img src="assets/insta_logo.png" onclick="window.location.href='https://www.instagram.com'">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Sponsor Page -->
+        <div class="section s5">
+
+            <div id="sponsor">
+                <div class="sponsor-heading">
+                    Sponsors
+                </div>
+                <div class="main-carousel" data-flickity='{"cellAlign": "left","contain": true,"autoPlay":true,"freeScroll":true,"prevNextButtons": true}'>
+
+                    <!-- Wrapper 1 -->
+                    <div class="wrapper">
+
+                        <!-- <div class="mobile-Row"> -->
+                        <!-- Card 1 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://nulltrace.in/'">
+
+                                <img src='assets/nulltrace-logo.png'>
+                                <div class="sponsor-info">
+                                    <h1>NullTrace</h1>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://www.isoeh.com/'">
+                                <img src='assets/isoeh_logo.png'>
+
+                                <div class="sponsor-info">
+                                    <h1>ISOEH</h1>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://www.bugcrowd.com/'">
+                                <img src='assets/bugcrowd_logo.png'>
+
+                                <div class="sponsor-info">
+                                    <h1>Bugcrowd</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                    <!-- Wrapper 2 -->
+                    <div class="wrapper">
+                        <!-- Card 4 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://burpbounty.net/'">
+
+                                <img src='assets/burp_bounty_logo.png'>
+
+                                <div class="sponsor-info">
+                                    <h1 style="margin-left: 1.8vh;">BurpBounty</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+
+                        <!-- <div class="mobile-Row"> -->
+                        <!-- Card 5 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://1password.com/'">
+                                <img src='assets/1password_logo.png'>
+
+                                <div class="sponsor-info">
+                                    <h1>1Password</h1>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://givemycertificate.com/'">
+                                <img src='assets/give-my-cert-logo.png'>
+
+                                <div class="sponsor-info">
+                                    <h1>
+                                        <div class="gmc">Give My Certificate</div>
+                                    </h1>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wrapper 3 -->
+                    <div class="wrapper">
+                        <!-- Card 7 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://paneltime.web.app/'">
+
+                                <img src='assets/pannel.jpeg'>
+
+                                <div class="sponsor-info">
+                                    <h1 style="margin-left: 1.8vh;">Panel Time</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+
+                        <!-- <div class="mobile-Row"> -->
+                        <!-- Card 8 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://reconshell.com/'">
+                                <img src='assets/shell.jpg'>
+
+                                <div class="sponsor-info">
+                                    <h1>Reconshell</h1>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Card 9 -->
+                        <div class="carousel-cell">
+                            <div class="sponsor-card" , onclick="window.location.href='https://www.hackthebox.com/'">
+                                <img src='assets/htb.jpg'>
+
+                                <div class="sponsor-info">
+                                    <h1>
+                                        <div class="gmc">HackTheBox</div>
+                                    </h1>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <!-- Three JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script> -->
+
+    <!-- Full Page Js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+    <script>
+        var menuList = document.getElementById("menu-List");
+
+        function togglemenu() {
+            if (menuList.style.display == "none") {
+                menuList.style.display = "block"
+            } else {
+                menuList.style.display = "none"
+            }
+        }
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+
+    <!-- FullPage Scroll -->
+    <script>
+        new fullpage('#fullPage', {
+            // anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+            // normalScrollElements: '.col-2',
+            // scrollOverflow: true,
+
+        })
+    </script>
+
+
+
+
+
+</body>
+<script type="text/javascript" src="js/particles.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/particles.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</html>
